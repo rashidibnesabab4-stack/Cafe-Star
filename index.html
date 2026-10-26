@@ -60,7 +60,7 @@
         .card-bottom { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px; }
         .price { font-size: 18px; font-weight: 900; color: #ff9f43; }
 
-        /* Highlights & Amenities Info Section */
+        /* Amenities Section */
         .info-grid-section { padding: 80px 8%; background: #131313; border-top: 1px solid rgba(255,159,67,0.05); }
         .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
         .info-box { background: #1c1c1c; padding: 25px; border-radius: 12px; border-bottom: 3px solid #ff9f43; }
@@ -115,7 +115,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <div id="live-indicator" class="time-tag"><i class="fa-solid fa-circle-notch fa-spin"></i> Loading Timing Engine...</div>
+            <!-- ফিক্সড আইডি ট্যাগ: live-indicator -->
+            <div id="live-indicator" class="time-tag">● WE ARE OPEN NOW</div>
             <h1>Gourmet <span>Burgers</span> & Chinese Feast</h1>
             <p>Welcome to Cafe Star, standing proud next to Bottola Bazar, Barisal! Dive into the absolute best burgers in town, loaded sizzling platters, and authentic Chinese selections.</p>
             <div class="btn-wrapper">
@@ -135,7 +136,7 @@
             <p>DISCOVER PREMIUM TASTE TABS</p>
         </div>
 
-        <!-- Category Menu Tabs -->
         <div class="menu-tabs">
             <button class="tab-btn active" onclick="filterMenu('chinese')">Chinese Dishes</button>
             <button class="tab-btn" onclick="filterMenu('pasta')">Pasta & Chowmein</button>
+            <button class="tab-btn" onclick="filterMenu('rice-bowl')">Rice Bowls</button>
